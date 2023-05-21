@@ -39,9 +39,14 @@ void display(node* &head){
 
 int main(){
     node* head=NULL;
-    insert(head,3);
-    insert(head,45);
-    insert(head,36);
+    int n;
+    cout<<"Enter no.of ele to insert"<<endl;
+    cin>>n;
+    for(int i=0;i<n;i++){
+        int a;
+        cin>>a;
+        insert(head,a);
+    }
     display(head);
     return 0;
 }
