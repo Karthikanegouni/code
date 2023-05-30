@@ -31,10 +31,10 @@ void display(node* &head){
     node* t = head;
     cout<<"NULL";
     while(t!=NULL){
-        cout<<"<--"<<t->data<<"-->";
+        cout<<"<-->"<<t->data;
         t=t->next;
     }
-    cout<<"NULL"<<endl;
+    cout<<"<-->NULL"<<endl;
 }
 
 int main(){
