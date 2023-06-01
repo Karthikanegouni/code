@@ -5,8 +5,6 @@ using namespace std;
 #include<unordered_map>
 #include<map>
 
-
-
 int main()
 {
 	map<int,char>m;
@@ -23,7 +21,6 @@ int main()
 	for(pair<int,char> p:m){
 		cout<<p.first<<" : "<<p.second<<endl;
 	}
-
 cout<<endl;
 	unordered_map<int,char> um;
 	cin>>n;
@@ -36,9 +33,6 @@ cout<<endl;
 	}
 	for(pair<int,char> i:um){
 		cout<<i.first<<" : "<<i.second<<endl;
-	}
-
-
-
+		}
 	return 0;
 }

@@ -1,0 +1,1 @@
+max_elelment,min_ele,accumulate,__builtin__popcount,stack,queue,deque,dequing a stack,dequaing a queue,input restricted que,output rescricted queue

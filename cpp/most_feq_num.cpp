@@ -6,8 +6,6 @@ using namespace std;
 #include<map>
 #include<unordered_set>
 
-
-
 int main()
 {
 	map<int,char>m;
@@ -28,19 +26,7 @@ int main()
 		}
 	}
 
-	cout<<"Max fre ele= "<<max_key;
-
-	// unordered_set <char> s;
-	// for(pair<int,char> p:m){
-	// 	s.insert(p.second);
-	// }
-	// for(auto p:s){
-	// 	cout<<p<<endl;
-	// }
-
-	// for(pair<int,char> p:m){
-	// 	cout<<p.first<<" : "<<p.second<<endl;
-	// }
+	cout<<"Max freq ele= "<<max_key;
 
 	return 0;
 }
