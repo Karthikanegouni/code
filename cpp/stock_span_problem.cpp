@@ -3,7 +3,7 @@ using namespace std;
 
 void printspan(int arr[],int n){
 	for(int i =0;i<n;i++){
-		int span=1;
+		int span=0;
 		for(int j=i;j>=0&& arr[j]<=arr[i];j--){
 			span++;
 		}
@@ -19,3 +19,5 @@ int main(){
 
 	return 0;
 }
+
+// Rank = index of the current ele - closest greater elw index
